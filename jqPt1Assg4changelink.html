@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<meta charset="utf-8">
+<title>jQuerySession1-Assignment4-Change HyperLink</title>
+<script>
+$(document).ready(function(){
+     $("a").attr("href", "www.acadgild.com");
+         $("a").text("jQuery Tutorial for beginners");
+     });
+
+/*2nd method
+$('a:first').attr({
+     href:'jQuery Tutorial'});
+ });*/
+</script>
+</head>
+<body>
+     <a href="www.acadgild.com" id='acadgild'>jQuery Tutorial</a>
+</body>
+</html>
